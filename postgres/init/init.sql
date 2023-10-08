@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS sample;
 CREATE TABLE
     sample (
         id integer NOT NULL PRIMARY KEY,
-        name char(100) NOT NULL,
+        name varchar(100) NOT NULL,
         created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
     );
 
